@@ -34,6 +34,11 @@ public class TelaOs extends javax.swing.JInternalFrame {
         txtCliId.setText(tblClientes.getModel().getValueAt(setar, 0).toString());
     }
 
+    
+    
+    
+    
+    
         //metodo para cadastrar ordem de serviço
     private void emitir_Os(){
         String sql = "insert into tbos (tipo,situacao,equipamento,defeito,servico,tecnico,valor,idcli values (?,?,?,?,?,?,?,?)";
